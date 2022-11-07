@@ -1,30 +1,24 @@
-def test_set_name():
-    assert False
 
+from Project import *
+
+foo = Project()
 
 def test_get_name():
-    assert False
-
-
-def test_set_the_resources():
-    assert False
-
+    tst = "carlos perez"
+    foo.setName(tst)
+    assert foo.getName() == tst
 
 def test_get_the_resources():
-    assert False
-
-
-def test_set_the_employees():
-    assert False
-
+    tst = "recursos"
+    foo.setTheResources(tst)
+    assert foo.getTheResources() == tst
 
 def test_get_the_employees():
-    assert False
-
-
-def test_set_the_work_breakdown_structure():
-    assert False
-
+    tst = "empleados"
+    foo.setTheEmployees(tst)
+    assert foo.getTheEmployees() == tst
 
 def test_get_the_work_breakdown_structure():
-    assert False
+    tst = "tst"
+    foo.setTheWorkBreakdownStructure(tst)
+    assert foo.getTheWorkBreakdownStructure() == tst
