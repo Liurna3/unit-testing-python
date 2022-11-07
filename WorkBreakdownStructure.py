@@ -6,7 +6,7 @@ class WorkBreakdownStructure():
     def getName(self):
         return self.name
 
-    def getTheTask(self):
+    def getTheTasks(self):
         return self.theTasks
 
     def setName(self, name):
