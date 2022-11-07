@@ -1,10 +1,8 @@
 class Task:
-    name = ""
-    theResources = ""
-    theEmployees = ""
-
     def __int__(self):
-        x = 1
+        self.name = ""
+        self.theResources = ""
+        self.theEmployees = ""
 
     def setName(self, name):
         self.name = name

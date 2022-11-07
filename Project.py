@@ -1,11 +1,9 @@
 class Project:
-    name = ""
-    theResources = ""
-    theEmployees = ""
-    theWorkBreakdownStructure = ""
-
     def __int__(self):
-        x = 1
+        self.name = ""
+        self.theResources = ""
+        self.theEmployees = ""
+        self.theWorkBreakdownStructure = ""
 
     def setName(self, name):
         self.name = name
